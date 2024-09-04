@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnConnect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-[#fefae0] h-[100vh]">
+    <nav class="shadow shadow-gray-300 w-full px-8 md:px-auto h-[8%]">
+        <div class="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
+            <div class="text-indigo-600 md:order-1 italic text-3xl font-bold" style="font-family: 'Pacifico', cursive; ">
+                <a href="index.html">TutorHub</a>
+            </div>
+            <div class="text-indigo-600 order-3 w-full md:w-auto md:order-2 flex items-center gap-8">
+                <ul class="flex font-semibold justify-between items-center gap-2">
+                    <li class="md:px-2 md:py-1 border-2 border-transparent hover:border-2 hover:rounded-full hover:border-indigo-600"><a href="#">Categories</a></li>
+                    <li class="md:px-2 md:py-1 border-2 border-transparent hover:border-2 hover:rounded-full hover:border-indigo-600"><a href="#">About</a></li>
+                    <li class="md:px-2 md:py-1 border-2 border-transparent hover:border-2 hover:rounded-full hover:border-indigo-600"><a href="#">Contact</a></li>
+                </ul>
+                <div class="order-2 md:order-3">
+                    <button class="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-gray-50 rounded-xl flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z" clip-rule="evenodd" />
+                        </svg>
+                        <span>Login</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="categories" class="h-[85%]">
+        <div class="container mx-auto">
+            <h3 class="text-4xl font-bold text-center mb-8 text-indigo-600 m-16">Tutor Categories</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-semibold mb-2">Mathematics</h4>
+                    <p class="mb-4">Find expert tutors in Algebra, Calculus, Geometry, and more.</p>
+                    <a href="category.html" class="text-blue-600 font-bold">View Tutors</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-semibold mb-2">Engineering</h4>
+                    <p class="mb-4">Connect with tutors specializing in Mechanical, Electrical, Civil, and more.</p>
+                    <a href="category.html" class="text-blue-600 font-bold">View Tutors</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-semibold mb-2">English</h4>
+                    <p class="mb-4">Improve your English skills with tutors in Literature, Grammar, and more.</p>
+                    <a href="category.html" class="text-blue-600 font-bold">View Tutors</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-semibold mb-2">Computer Science & Technology</h4>
+                    <p class="mb-4">Learn programming, web development, data science, and more.</p>
+                    <a href="category.html" class="text-blue-600 font-bold">View Tutors</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-semibold mb-2">Science</h4>
+                    <p class="mb-4">Get help with Physics, Chemistry, Biology, and more.</p>
+                    <a href="category.html" class="text-blue-600 font-bold">View Tutors</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-semibold mb-2">Psychology</h4>
+                    <p class="mb-4">Understand the mind with tutors in Clinical, Cognitive, and more.</p>
+                    <a href="category.html" class="text-blue-600 font-bold">View Tutors</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="text-indigo-900 font-semibold py-4 h-[7%]">
+        <div class="container mx-auto text-center">
+            <p>&copy; TutorHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
